@@ -1,2 +1,2 @@
 # HTML-API
-THIRD PARTY API USING HTML, JS AND CSS
+Basic third party API using HTML, JS and CSS
