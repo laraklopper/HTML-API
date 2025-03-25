@@ -2,7 +2,6 @@
 
 HTTP is the underlying protocol used by the `World Wide Web (WWW)`. HTTP is the foundation of any data exchange on the Web and is a client-server protocol, which means requests are initiated by recipient, usually the Web browser. A web server delivers website content to a user's web browser upon receiving such requests from the browser. A web browser is an HTTP client that sends requests for information to servers.
 
-![alt text](image-1.png)
 
 HTTP follows a `request-response model`. The messages sent by the client are called requests and the messages sent by the server as an answer are called responses. The client (usually a web browser) sends a request to the web server, and the server answers with the appropriate response.
 
