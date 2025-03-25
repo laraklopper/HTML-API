@@ -8,4 +8,4 @@ An **API**  is a set of rules and protocols that allows different software appli
 ## TYPES OF API's
 
 1. **Third Party API**
-2. **REST API Representational State Transfer**
+2. **REST API (Representational State Transfer)**
