@@ -32,12 +32,14 @@
             <div class="row" id="outputRow">
                 <div class="col"></div>
                 <div class="col-6" id="outputCol">
+                    <!-- Screen reader heading -->
+                    <h2 class="visually-hidden" id="outputHeading">City Information Results</h2>
                     <!-- API OUTPUT BLOCK -->
-                    <div 
-                        id="output" 
-                        role="region" 
-                        aria-label="City information results" 
-                        aria-live="polite" 
+                    <div
+                        id="output"
+                        role="region"
+                        aria-labelledby="outputHeading"
+                        aria-live="polite"
                         aria-atomic="true"
                         >
                     <!-- API OUTPUT -->

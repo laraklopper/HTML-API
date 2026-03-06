@@ -1,15 +1,17 @@
 /* BODY */
 #body{
+    display: flex;
     margin: 10px;
     padding: 10px;
     background-color: #91C22F;
+    overflow: visible;
 }
 /* Header */
 #header{
     background-color: #729925;
     padding: 10px 0px;
     margin: 10px 0px;
-
+    display: block;
 }
 /* Layout */
 #headerRow{
