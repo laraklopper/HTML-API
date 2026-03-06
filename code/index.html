@@ -13,28 +13,39 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Alkatra:wght@400..700&family=Playpen+Sans:wght@100..800&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Winky+Rough:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
 </head>
+<!-- Body -->
 <body id="body">
+    <!-- BOOTSTRAP CONTAINER -->
     <div class="container-fluid" role="main" aria-label="City Details API Application">
-    <header id="header" role="banner" aria-labelledby="pageTitle">
-        <div class="row" id="headerRow">
-            <div class="col"></div>
-            <div class="col-6" id="headingCol">
-                <h1 class="h1" id="pageTitle">CITY DETAIL API</h1>
+        <!-- HEADER -->
+        <header id="header" role="banner" aria-labelledby="pageTitle">
+            <div class="row" id="headerRow">
+                <div class="col"></div>
+                <div class="col-6" id="headingCol">
+                    <h1 class="h1" id="pageTitle">CITY DETAIL API</h1>
+                </div>
+                <div class="col"></div>
             </div>
-            <div class="col"></div>
-        </div>
-    </header>
+        </header>
     <!-- SECTION 1: API OUTPUT -->
-    <section id="section1" aria-label="City API Output">
-        <div class="row" id="outputRow">
-            <div class="col"></div>
-            <div class="col-6" id="outputCol">
-                <!-- API OUTPUT -->
-                <div id="output" role="region" aria-label="City information results" aria-live="polite" aria-atomic="true"></div>
+        <section id="section1" aria-label="City API Output">
+            <div class="row" id="outputRow">
+                <div class="col"></div>
+                <div class="col-6" id="outputCol">
+                    <!-- API OUTPUT BLOCK -->
+                    <div 
+                        id="output" 
+                        role="region" 
+                        aria-label="City information results" 
+                        aria-live="polite" 
+                        aria-atomic="true"
+                        >
+                    <!-- API OUTPUT -->
+                    </div>
+                </div>
+                <div class="col"></div>
             </div>
-            <div class="col"></div>
-        </div>
-    </section>
+        </section>
     </div>
     <!-- JavaScript -->
     <script src="./script.js"></script>
